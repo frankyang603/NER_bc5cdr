@@ -12,4 +12,4 @@ Parameter: epochs = 8
 
 
 
-<img src="https://github.com/frankyang603/NER_bc5cdr/assets/93704660/d9005fbf-f296-4677-a6d7-31d414a799ac" width="100" height="100">
+<img src="https://github.com/frankyang603/NER_bc5cdr/assets/93704660/d9005fbf-f296-4677-a6d7-31d414a799ac" width="600" height="300">
