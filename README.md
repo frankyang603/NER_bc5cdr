@@ -19,5 +19,8 @@ Without using trainer:
 In code ner_no_trainer_86.7, I reach f1_score = 86.7 in the testing set.  
 In code ner_no_trainer_90.9, I reach f1_score = 90.9 in the testing set.   
 
-
+In the code NER_different_label_testing_1 and NER_different_label_testing_2 , I test the score difference between two differnt testing label.
+In the experiment above, I get the score by using adjust_labels. 
+During the process, for example, "student" might be tokenize to "stu" "dent", and if "student" is labels by "1", then I will let the token "stu" labels to "1",and "dent" labels to "1" too.
+1 
 
