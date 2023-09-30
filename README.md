@@ -19,9 +19,10 @@ Without using trainer:
 In code ner_no_trainer_86.7, I reach f1_score = 86.7 in the testing set.  
 In code ner_no_trainer_90.9, I reach f1_score = 90.9 in the testing set.   
 
-In the code NER_different_label_testing_1 and NER_different_label_testing_2 , I test the score difference between two differnt testing label.    
+In the code NER_different_label_testing_1 and NER_different_label_testing_2 , I test the score difference between two differnt testing label.      
 
 During the process, for example, "student" might be tokenize to "stu" "dent", and if "student" is labels by "1", then I will let the token "stu" labels to "1",and "dent" labels to "1" too.  
+
 In the experiment above, I get the score by using adjust_labels, in more detail, if "stu" is predicted by model "1" and "dent" also predicted "1", it will count two correct , however, in the test set "student" is one data, so if model predict "1" , it only counts one correct , Go further , if "stu" is predicted label "2" and "dent" is predicted to "1" , it might cannot corectly predicted the label of "student". 
 
 I want to check if there exist a big distance between two differnt scoreing method, I let the predict "student" by useing the maximum occurence in it's split label, for example , if one word is tokenize into three token ,and the three token is predicted by "1","1","2", then the origin word will be prediction be "1".  
