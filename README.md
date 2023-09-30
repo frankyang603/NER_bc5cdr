@@ -14,5 +14,5 @@ In the code I reach the highest score, the picture below shows the f1_score of t
 
 <img src="https://github.com/frankyang603/NER_bc5cdr/assets/93704660/d9005fbf-f296-4677-a6d7-31d414a799ac" width="600" height="300">
 
-<img src="[https://github.com/frankyang603/NER_bc5cdr/assets/93704660/d9005fbf-f296-4677-a6d7-31d414a799a" width="600" height="300">
-![image](https://github.com/frankyang603/NER_bc5cdr/assets/93704660/7f4087b7-fb72-4422-ae21-95a6f9086bca)
+<img src="https://github.com/frankyang603/NER_bc5cdr/assets/93704660/7f4087b7-fb72-4422-ae21-95a6f9086bca" width="600" height="300">
+
